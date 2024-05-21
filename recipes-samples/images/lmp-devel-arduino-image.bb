@@ -73,6 +73,12 @@ OPENCV = " \
     opencv \
 "
 
+PIKA_SPARK = " \
+    minicom \
+    can-utils \
+    i2c-tools \
+"
+
 CORE_IMAGE_BASE_INSTALL += " \
     libdrm \
     usb-modeswitch \
@@ -81,6 +87,7 @@ CORE_IMAGE_BASE_INSTALL += " \
     ${ADB} \
     ${ARDUINO} \
     ${OPENCV} \
+    ${PIKA_SPARK} \
 "
 
 # Packages to be installed in Portenta-X8 machine only
