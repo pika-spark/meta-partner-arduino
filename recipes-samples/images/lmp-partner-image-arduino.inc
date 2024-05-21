@@ -30,12 +30,20 @@ ARDUINO = " \
     libusbgx-config \
 "
 
+PIKA_SPARK = " \
+    minicom \
+    can-utils \
+    i2c-tools \
+    cmake \
+"
+
 CORE_IMAGE_BASE_INSTALL += " \
     libdrm \
     usb-modeswitch \
     ${LMP_EXTRA} \
     ${ADB} \
     ${ARDUINO} \
+    ${PIKA_SPARK} \
 "
 
 # No default password is configured for the device

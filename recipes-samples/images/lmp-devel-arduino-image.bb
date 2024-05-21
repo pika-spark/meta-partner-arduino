@@ -59,4 +59,4 @@ CORE_IMAGE_BASE_INSTALL += " \
     u-boot-fio-env \
     u-boot-fw-utils \
     ${OPENCV} \
-"
+ "
