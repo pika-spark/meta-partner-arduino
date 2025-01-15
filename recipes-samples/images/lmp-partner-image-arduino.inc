@@ -53,6 +53,7 @@ EXTRA_USERS_PARAMS += "\
 
 # Packages to be installed in Portenta-X8 machine only
 IMAGE_INSTALL:append:portenta-x8 = " openocd"
+IMAGE_INSTALL:append:portenta-x8 = " packagegroup-core-buildessential"
 
 fakeroot do_populate_rootfs_add_custom_sudoers () {
     # Allow sudo group users to use sudo
