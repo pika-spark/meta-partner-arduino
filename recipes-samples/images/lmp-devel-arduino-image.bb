@@ -52,6 +52,13 @@ OPENCV = " \
     opencv \
 "
 
+PIKA_SPARK = " \
+    minicom \
+    can-utils \
+    i2c-tools \
+    cmake \
+"
+
 CORE_IMAGE_BASE_INSTALL += " \
     automount-boot \
     dtc \
@@ -59,6 +66,7 @@ CORE_IMAGE_BASE_INSTALL += " \
     u-boot-fio-env \
     u-boot-fw-utils \
     ${OPENCV} \
+    ${PIKA_SPARK} \
 "
 
 # Custom task to write git SHA to /etc/os-release
