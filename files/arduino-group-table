@@ -82,5 +82,5 @@ systemd-journal-gateway:x:996:
 systemd-journal-remote:x:997:
 systemd-coredump:x:998:
 fio:x:1000:
-tracing:x:2000
+tracing:x:2000:
 nogroup:x:65534:
