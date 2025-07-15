@@ -80,3 +80,4 @@ ROOTFS_POSTPROCESS_COMMAND += "write_git_sha; "
 
 IMAGE_INSTALL:append:portenta-x8 = " packagegroup-core-buildessential"
 IMAGE_INSTALL:append:portenta-x8 = " ros-core lttng-tools"
+IMAGE_INSTALL:append:portenta-x8 = " libhailort hailortcli pyhailort libgsthailo hailo-pci hailo-firmware"
