@@ -49,7 +49,8 @@ DTB_OVERLAYS:append:portenta-x8 = " \
     file://ov_carrier_rasptenta_imx708_camera_mipi.dts \
     file://ov_carrier_rasptenta_pwm_fan.dts \
     file://ov_rasptenta_iqaudio_codec.dts \
-    file://ov_carrier_pika_spark.dts \
+    file://ov_carrier_pika_spark_base.dts \
+    file://ov_carrier_pika_spark_hailo_pcie.dts \
     file://ov_carrier_ditto_base.dts \
     file://ov_carrier_mid_ov5647_camera_mipi.dts \
     file://ov_carrier_mid_pcie_mini.dts \
